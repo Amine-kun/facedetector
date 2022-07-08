@@ -1,0 +1,45 @@
+.htc:hover {
+    color: #e2e2e2;
+}
+.htc:focus {
+    color: #e2e2e2;
+}
+.hoverc:hover {
+    background-color: #333333;
+} 
+.hoverc:focus {
+    background-color: #333333;
+} 
+
+.ba1 {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #333333;
+}
+.textcolor{
+    color: #333333;
+}
+
+.incorrect {
+    color: #b01c1c;
+    opacity: 100%;
+}
+.inv {
+    display: none;
+}
+.vector {
+    height: 352px;
+    position: absolute;
+    top: 25%;
+    left: 43%;
+    border-left: #275da3 solid 3px;
+    border-radius: 3px;
+    padding-left: 105px;
+    padding-bottom: 13px;
+}
+
+@media (max-width: 860px ){
+    .vector{
+        display: none;
+    }
+}

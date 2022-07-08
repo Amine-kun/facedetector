@@ -1,0 +1,40 @@
+.bounding-box{
+	position: absolute;
+	box-shadow: 0 0 0 3px #149df2 inset;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	cursor: pointer;
+}
+ 
+ .div1{
+ 	display: flex;
+ 	justify-content: center;
+ 	height: 400px;
+ 	background: #212329 url(https://10minemail.com/js/images/header-bg.jpg) repeat 0 0;
+ 	margin: 50px 20% 50px 20%;
+ }
+
+ .img1{
+ 	 width: 500px;
+ 	 height: auto;
+ }
+
+@media (max-width: 925px){
+	.div1{
+		height: 375px;
+		margin: 50px 0px 50px 0px;
+	}
+}
+
+@media (max-width: 500px){
+	.div1{
+		height: 346px;
+		margin: 50px 0px 50px 0px;
+	}
+}
+
+.mar{
+	margin-top: 2.25%;
+}
+

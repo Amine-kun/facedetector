@@ -1,0 +1,237 @@
+body{
+  position: relative;
+}
+/*.home:before {
+    content: '';
+    height: 800px;
+    width: 800px;
+    border-radius: 120px;
+    position: absolute;
+    top: -294px;
+    left: 589px;
+    -webkit-transform: rotateZ(
+-45deg);
+    transform: rotateZ(
+-45deg);
+    background-image: linear-gradient(to right, #214a80, #8cbeff);
+    background-color: #ffbf02;
+}*/
+.login-dark {
+  height: 561px;
+  background: #1e2833 url(https://10minemail.com/js/images/header-bg.jpg) repeat 0 0; 
+}
+
+
+.login-dark .form {
+  max-width: 320px;
+  width: 90%;
+  padding: 40px;
+  background: #1e2833 url(https://10minemail.com/js/images/header-bg.jpg) repeat 0 0;
+  border-radius: 4px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  color: #fff;
+/*  box-shadow: 3px 3px 4px rgba(0,0,0,0.2);*/
+}
+
+.login-dark .illustration {
+  text-align: center;
+  padding: 15px 0 20px;
+  font-size: 100px;
+  color: #2980ef;
+}
+
+.login-dark .form .form-control {
+  background: #323645;
+  border: none;
+/*  border-bottom: 1px solid #434a52;*/
+  border-radius: 20px;
+  box-shadow: none;
+  outline: none;
+  color: inherit;
+}
+
+.login-dark .form .btn-primary {
+  background: linear-gradient(to right, #214a80, #3381e5);
+  border: none;
+  border-radius: 4px;
+  padding: 11px;
+  box-shadow: none;
+  margin-top: 26px;
+  text-shadow: none;
+  outline: none;
+}
+.login-dark .form .form-control:hover {
+    color: #e9e9e9;
+    background-color: #2e3038;
+    box-shadow: 0 0 6px #3f88e5;
+}
+
+.login-dark .form .form-control:focus {
+    color: #e9e9e9;
+    background-color: #2e3038;
+    box-shadow: 0 0 6px #3f88e5;
+}
+
+.login-dark .form .btn-primary:hover {
+    box-shadow: 0 0 10px #1d7eff;
+}
+.login-dark .form .btn-primary:focus {
+    box-shadow: 0 0 10px #1d7eff;
+}
+
+
+.login-dark .form .btn-primary:hover, .login-dark .form .btn-primary:active {
+  outline: none;
+}
+
+.login-dark .form .forgot {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  color: #6f7a85;
+  opacity: 0.9;
+  text-decoration: none;
+}
+
+.login-dark .form .forgot:hover, .login-dark .form .forgot:active {
+  opacity: 1;
+  text-decoration: none;
+}
+
+.login-dark .form .btn-primary:active {
+  transform: translateY(1px);
+}
+
+.login-dark .form .forgot .sign{
+  color: #3077d3;
+  border: none;
+  background-color: transparent;
+}
+
+
+@media (max-width: 992px){
+  .home:before {
+    position: absolute;
+    left: 480px ;
+  }
+  .header-dark .navbar .navbar-brand {
+    margin-top: 20px;
+  }
+  .header-dark .navbar.navbar-dark .navbar-nav .nav-link {
+    margin-top: -16px;
+  }
+}
+@media (max-width: 860px){
+  .home:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+}
+
+@media (max-width: 860px) {
+ .login-dark .form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+}
+  .login-dark .ktaba, .ktaba2, .ktaba3, 
+  .ktaba4, .ktaba5, .ktabax {
+    display: none;
+  }
+
+}
+
+.login-dark .ktabax {
+  z-index: 5;
+  color: #fff;
+  position: absolute;
+  left: 49%;
+  top: 35%;
+  font-size: 45px;
+  opacity: 80%;
+  padding-right: 15px ;
+}
+
+.login-dark .ktaba {
+  z-index: 5;
+  color: #fff;
+  position: absolute;
+  left: 57%;
+  top: 27%;
+  font-size: 60px;
+  opacity: 80%;
+  padding-right: 20px ;
+}
+
+.login-dark .ktaba2 {
+  z-index: 5;
+  color: #fff;
+  position: absolute;
+  left: 63%;
+  top: 40%;
+  font-size: 15px;
+  opacity: 80%;
+  padding-right: 20px ;
+  border-bottom: #fff solid 2px;
+  padding-bottom: 20px ;
+  padding-left: 15px;
+}
+
+.login-dark .ktaba3 {
+  z-index:5 ;
+  color: #fff;
+  position: absolute;
+  left: 68%;
+  top: 50%;
+  font-size: 20px;
+  opacity: 80%;
+  padding-right: 20px ;
+}
+.login-dark .ktaba4 {
+  z-index:5 ;
+  color: #fff;
+  position: absolute;
+  left: 64%;
+  top: 54%;
+  font-size: 20px;
+  opacity: 80%;
+  padding-right: 20px ;
+}
+.login-dark .ktaba5 {
+  z-index: ;
+  color: #fff;
+  position: absolute;
+  left: 65%;
+  top: 58%;
+  font-size: 20px;
+  opacity: 80%;
+  padding-right: 20px ;
+}
+
+@media (min-width: 860px) and (max-width: 992px){
+  .login-dark .ktaba{
+    position: absolute;
+    left: 50%;
+  }
+  .login-dark .ktaba2{
+    position: absolute;
+    left: 60%;
+  }
+  .login-dark .ktaba3{
+    position: absolute;
+    left: 68%;
+  }
+  .login-dark .ktaba4{
+    position: absolute;
+    left: 62%;
+  }
+  .login-dark .ktaba5{
+    position: absolute;
+    left: 64%;
+  }
+}
