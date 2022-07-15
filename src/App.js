@@ -74,7 +74,7 @@ class App extends Component  {
 
   onButtonClick = () => {
       this.setState({ imageUrl: this.state.input});
-        fetch('http://localhost:3001/imageurl',{
+        fetch('https://lit-caverns-20576.herokuapp.com/imageurl',{
             method:'post',
             headers:{'Content-Type': 'application/json'},
             body: JSON.stringify({
