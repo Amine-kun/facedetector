@@ -1,6 +1,5 @@
 import react, { Component } from 'react';
 import './App.css';
-import Clarifai from 'clarifai';
 
 import Navigation from './Components/Navigation/Navigation';
 import Linkbar from './Components/Linkbar/Linkbar';
